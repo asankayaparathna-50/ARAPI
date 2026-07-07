@@ -427,3 +427,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+scripts/DataValue_*.sql
+scripts/DataCode_*.sql
