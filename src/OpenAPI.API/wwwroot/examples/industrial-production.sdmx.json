@@ -1,0 +1,276 @@
+{
+    "header": {
+        "id": "IND_PROD_20260109042645",
+        "prepared": "2026-01-09T04:26:45.5202298Z",
+        "sender": {
+            "id": "CBSL",
+            "name": {
+                "lang": "en",
+                "text": "Central Bank of Sri Lanka"
+            },
+            "contact": {
+                "name": {
+                    "lang": "en",
+                    "text": "Statistics Department"
+                },
+                "email": "statistics@cbsl.lk",
+                "uri": "https://www.cbsl.gov.lk"
+            }
+        },
+        "structure": {
+            "structureID": "DSD_IND_PROD",
+            "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_IND_PROD",
+            "dimensionAtObservation": "TIME_PERIOD"
+        }
+    },
+    "dataSet": {
+        "structureRef": "CBSL:DSD_IND_PROD",
+        "series": [
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "FOOD"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Food products"
+                        }
+                    ]
+                },
+                "observations": []
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "APPAREL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wearing apparel"
+                        }
+                    ]
+                },
+                "observations": []
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "MINERAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Other non-metallic mineral products"
+                        }
+                    ]
+                },
+                "observations": []
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "PETROLEUM"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Coke and refined petroleum products"
+                        }
+                    ]
+                },
+                "observations": []
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "RUBBER"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Rubber and plastic products"
+                        }
+                    ]
+                },
+                "observations": []
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "CHEMICAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Chemicals and chemical products"
+                        }
+                    ]
+                },
+                "observations": []
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "PRODUCT",
+                            "value": "BEVERAGE"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "INDEX"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Beverages"
+                        }
+                    ]
+                },
+                "observations": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "policyInterestRate": {
+        "itemName": "Policy Rates - Overnight Policy Rate (OPR)",
+        "yearAgoValue": 8.00,
+        "weekAgoValue": 7.75,
+        "thisWeek": 7.75
+    },
+    "standingFacilityRate": [
+        {
+            "itemName": "Repo/Standing Deposit Facility - Rate",
+            "yearAgoValue": 7.50,
+            "weekAgoValue": 7.25,
+            "thisWeek": 7.25
+        },
+        {
+            "itemName": "Reverse Repo/Standing Lending Facility - Rate",
+            "yearAgoValue": 8.50,
+            "weekAgoValue": 8.25,
+            "thisWeek": 8.25
+        }
+    ],
+    "callMoneyMarket": {
+        "itemName": "Average Weighted Call Money Rate",
+        "yearAgoValue": 4.53,
+        "weekAgoValue": 4.53,
+        "thisWeek": 0.00
+    },
+    "treasuryBillYields": [
+        {
+            "itemName": "Treasury Bill Primary Market Auction Weighted Average Yield Rate -91 days",
+            "yearAgoValue": 8.69,
+            "weekAgoValue": 7.51,
+            "thisWeek": 0.00
+        },
+        {
+            "itemName": "Treasury Bill Primary Market Auction Weighted Average Yield Rate -182 days",
+            "yearAgoValue": 8.88,
+            "weekAgoValue": 7.91,
+            "thisWeek": 0.00
+        },
+        {
+            "itemName": "Treasury Bill Primary Market Auction Weighted Average Yield Rate -364 days",
+            "yearAgoValue": 9.07,
+            "weekAgoValue": 8.03,
+            "thisWeek": 0.00
+        }
+    ],
+    "licensedCommercialBank": {
+        "itemName": "Average Weighted Prime Lending Rate (AWPR) - Weekly",
+        "yearAgoValue": 0.00,
+        "weekAgoValue": 0.00,
+        "thisWeek": 0.00
+    }
+}

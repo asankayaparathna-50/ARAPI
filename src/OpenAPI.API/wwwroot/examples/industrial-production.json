@@ -1,0 +1,46 @@
+{
+    "industrialProductionIndex": [
+        {
+            "productName": "Food products",
+            "currentYear": 85.4,
+            "previousYear": 90.1,
+            "percentageChange": -5.2
+        },
+        {
+            "productName": "Wearing apparel",
+            "currentYear": 83.5,
+            "previousYear": 90.2,
+            "percentageChange": -7.4
+        },
+        {
+            "productName": "Other non-metallic mineral products",
+            "currentYear": 91.7,
+            "previousYear": 85.8,
+            "percentageChange": 6.9
+        },
+        {
+            "productName": "Coke and refined petroleum products",
+            "currentYear": 114.2,
+            "previousYear": 36.8,
+            "percentageChange": null
+        },
+        {
+            "productName": "Rubber and plastic products",
+            "currentYear": 76.5,
+            "previousYear": 70.2,
+            "percentageChange": 9.1
+        },
+        {
+            "productName": "Chemicals and chemical products",
+            "currentYear": 65.5,
+            "previousYear": 63.8,
+            "percentageChange": null
+        },
+        {
+            "productName": "Beverages",
+            "currentYear": 130.4,
+            "previousYear": 119.6,
+            "percentageChange": 9.1
+        }
+    ]
+}

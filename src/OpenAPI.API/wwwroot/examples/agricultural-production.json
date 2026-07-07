@@ -1,0 +1,5 @@
+{
+  "tea": {"current": 25.5, "yearAgo": 24.2, "change": 5.4},
+  "rubber": {"current": 8.3, "yearAgo": 7.9, "change": 5.1},
+  "coconut": {"current": 245.0, "yearAgo": 238.5, "change": 2.7}
+}

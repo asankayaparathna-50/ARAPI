@@ -1,0 +1,526 @@
+{
+    "header": {
+        "id": "EMPLOYMENT_20260109042750",
+        "prepared": "2026-01-09T04:27:50.4248519Z",
+        "sender": {
+            "id": "CBSL",
+            "name": {
+                "lang": "en",
+                "text": "Central Bank of Sri Lanka"
+            },
+            "contact": {
+                "name": {
+                    "lang": "en",
+                    "text": "Statistics Department"
+                },
+                "email": "statistics@cbsl.lk",
+                "uri": "https://www.cbsl.gov.lk"
+            }
+        },
+        "structure": {
+            "structureID": "DSD_EMPLOYMENT",
+            "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_EMPLOYMENT",
+            "dimensionAtObservation": "TIME_PERIOD"
+        }
+    },
+    "dataSet": {
+        "structureRef": "CBSL:DSD_EMPLOYMENT",
+        "series": [
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "LFPR"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PERCENT"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Labour Force Participation Rate"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_ANNUAL"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 49.8
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 48.9
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "THIS_YEAR_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 47.1
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "UNEMP_RATE"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PERCENT"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Unemployment Rate"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_ANNUAL"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 4.7
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 4.8
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "THIS_YEAR_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 4.3
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "SECTOR",
+                            "value": "AGRI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PERCENT"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Employment in Agriculture"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_ANNUAL"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 26.5
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 28.2
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "THIS_YEAR_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 26.5
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "SECTOR",
+                            "value": "IND"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PERCENT"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Employment in Industry"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_ANNUAL"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 26.5
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 24.3
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "THIS_YEAR_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 25.3
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "SECTOR",
+                            "value": "SVC"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PERCENT"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "1"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Employment in Services"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_ANNUAL"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 47.0
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "YEAR_AGO_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 47.5
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "THIS_YEAR_QUARTER"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 48.2
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

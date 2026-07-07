@@ -1,0 +1,1969 @@
+{
+    "header": {
+        "id": "MARKET_PRICES_20260112055850",
+        "prepared": "2026-01-12T05:58:50.3126847Z",
+        "sender": {
+            "id": "CBSL",
+            "name": {
+                "lang": "en",
+                "text": "Central Bank of Sri Lanka"
+            },
+            "contact": {
+                "name": {
+                    "lang": "en",
+                    "text": "Statistics Department"
+                },
+                "email": "statistics@cbsl.lk",
+                "uri": "https://www.cbsl.gov.lk"
+            }
+        },
+        "structure": {
+            "structureID": "DSD_MARKET_PRICES",
+            "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_MARKET_PRICES",
+            "dimensionAtObservation": "TIME_PERIOD"
+        }
+    },
+    "dataSet": {
+        "structureRef": "CBSL:DSD_MARKET_PRICES",
+        "series": [
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_BEANS"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Beans"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 800.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_BEANS"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Beans"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 900.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_BIG_ONIONS_LOCAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Big Onions (local)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 238.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_BIG_ONIONS_LOCAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Big Onions (local)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 280.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_BRINJAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Brinjal"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 200.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_BRINJAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Brinjal"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 250.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_CABBAGE"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Cabbage"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 200.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_CABBAGE"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Cabbage"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 150.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_CARROT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Carrot"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 200.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_CARROT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Carrot"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 250.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_COCONUT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Coconut"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 160.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_COCONUT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Coconut"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 200.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_DHAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Dhal"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 255.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_DRIED_CHILLIES_IMP"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Dried Chillies (imp)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 725.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_DRIED_CHILLIES_IMP"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Dried Chillies (imp)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 750.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_EGGS_WHITE"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Eggs (White)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 43.500
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_EGGS_WHITE"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Eggs (White)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 43.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_KEKULU_RED"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Kekulu Red"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 208.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_KEKULU_RED"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Kekulu Red"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 215.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_GREEN_CHILLI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Green Chilli"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 450.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_LIME"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Lime"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 450.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_GREEN_CHILLI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Green Chilli"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 400.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_LIME"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Lime"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 400.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_POTATOES_LOCAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Potatoes (local)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 400.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_POTATOES_LOCAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Potatoes (local)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 340.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_PUMPKIN"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Pumpkin"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 200.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_PUMPKIN"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Pumpkin"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 130.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_RED_ONIONS_LOCAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Red Onions (local)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 287.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_SAMBA"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Samba"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 250.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_SAMBA"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Samba"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 240.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_SNAKE_GOURD"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Snake gourd"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 450.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_SNAKE_GOURD"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Snake gourd"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 400.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "WHOLESALE_TOMATOES"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Wholesale-Tomatoes"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 250.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "ITEM",
+                            "value": "RETAIL_TOMATOES"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "LKR"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Retail-Tomatoes"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 300.000
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+{
+  "header": {"id": "AGRI_PROD_202409", "sender": {"id": "CBSL"}},
+  "dataSet": {"structureRef": "CBSL:DSD_AGRI_PRODUCTION"}
+}

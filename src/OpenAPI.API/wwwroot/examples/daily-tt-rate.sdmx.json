@@ -1,0 +1,373 @@
+{
+  "header": {
+    "id": "DAILY_ECONOMIC_INDICATOR_20260424055655",
+    "prepared": "2026-04-24T05:56:55.8105762Z",
+    "sender": {
+      "id": "CBSL",
+      "name": {
+        "lang": "en",
+        "text": "Central Bank of Sri Lanka"
+      },
+      "contact": {
+        "name": {
+          "lang": "en",
+          "text": "OpenAPI"
+        },
+        "email": "",
+        "uri": ""
+      }
+    },
+    "structure": {
+      "structureID": "DSD_DAILY_ECONOMIC_INDICATORS",
+      "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+      "dimensionAtObservation": "TIME_PERIOD"
+    }
+  },
+  "dataSet": {
+    "structureRef": "CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+    "series": [
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "TT Rates -Buying GBP"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "TT Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 405.287
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "TT Rates -Buying JPY"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "TT Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 1.9597
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "TT Rates -Buying USD"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "TT Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 305.0008
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "TT Rates -Selling GBP"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "TT Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 418.0143
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "TT Rates -Selling JPY"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "TT Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 2.026
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "TT Rates -Selling USD"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "TT Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 312.5739
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

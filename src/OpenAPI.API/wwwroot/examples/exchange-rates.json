@@ -1,0 +1,6 @@
+{
+  "exchangeRates": [
+    {"currency": "USD", "date": "2024-01-15", "buyingRate": 298.50, "sellingRate": 300.75},
+    {"currency": "USD", "date": "2024-01-16", "buyingRate": 299.00, "sellingRate": 301.25}
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "header": {
+    "id": "DAILY_ECONOMIC_INDICATOR_20260424060456",
+    "prepared": "2026-04-24T06:04:56.1920497Z",
+    "sender": {
+      "id": "CBSL",
+      "name": {
+        "lang": "en",
+        "text": "Central Bank of Sri Lanka"
+      },
+      "contact": {
+        "name": {
+          "lang": "en",
+          "text": "OpenAPI"
+        },
+        "email": "",
+        "uri": ""
+      }
+    },
+    "structure": {
+      "structureID": "DSD_DAILY_ECONOMIC_INDICATORS",
+      "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+      "dimensionAtObservation": "TIME_PERIOD"
+    }
+  },
+  "dataSet": {
+    "structureRef": "CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+    "series": [
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "Crude Oil Futures Prices - Brent (Benchmark price)"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "Petroleum Price"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 63.24
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "Crude Oil Futures Prices - WTI (Benchmark price)"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "Petroleum Price"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 59.6
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "Crude Oil Prices - OPEC"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "Petroleum Price"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 63.86
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "International Petroleum Prices - Refined Products - Singapore Market - Diesel"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "Petroleum Price"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 85.68
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "International Petroleum Prices - Refined Products - Singapore Market - Kerosene"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "Petroleum Price"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 87.87
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "International Petroleum Prices - Refined Products - Singapore Market - Petrol"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "Petroleum Price"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 77.8
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

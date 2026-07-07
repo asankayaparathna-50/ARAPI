@@ -1,0 +1,4 @@
+{
+  "header": {"id": "EXCHANGE_RATES_202401", "sender": {"id": "CBSL"}},
+  "dataSet": {"structureRef": "CBSL:DSD_EXCHANGE_RATES"}
+}

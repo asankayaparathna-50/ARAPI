@@ -1,0 +1,1362 @@
+
+    {
+        "header": {
+            "id": "PRICE_INDICES_20260109032103",
+            "prepared": "2026-01-09T03:21:03.7015792Z",
+            "sender": {
+                "id": "CBSL",
+                "name": {
+                    "lang": "en",
+                    "text": "Central Bank of Sri Lanka"
+                },
+                "contact": {
+                    "name": {
+                        "lang": "en",
+                        "text": "Statistics Department"
+                    },
+                    "email": "statistics@cbsl.lk",
+                    "uri": "https://www.cbsl.gov.lk"
+                }
+            },
+            "structure": {
+                "structureID": "DSD_PRICE_INDICES",
+                "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_PRICE_INDICES",
+                "dimensionAtObservation": "TIME_PERIOD"
+            }
+        },
+        "dataSet": {
+            "structureRef": "CBSL:DSD_PRICE_INDICES",
+            "series": [
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 192.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 196.2
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 196.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 0.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 0.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 1.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 1.9
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 202.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 207.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 207.5
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.5
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.9
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.6
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.5
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 0.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 0.0
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "NCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Sep"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 177.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 181.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 181.3
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 3.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 1.6
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 1.6
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.2
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 189.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 193.8
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 193.4
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 1.7
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -1.2
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.8
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.3
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 0.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -0.2
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "seriesKey": {
+                        "values": [
+                            {
+                                "id": "FREQ",
+                                "value": "W"
+                            },
+                            {
+                                "id": "INDICATOR",
+                                "value": "CCPI"
+                            },
+                            {
+                                "id": "REF_AREA",
+                                "value": "LK"
+                            }
+                        ]
+                    },
+                    "attributes": {
+                        "values": [
+                            {
+                                "id": "UNIT_MEASURE",
+                                "value": "IDX"
+                            },
+                            {
+                                "id": "DECIMALS",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    "observations": [
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2024-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": -2.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Oct"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "obsKey": {
+                                "values": [
+                                    {
+                                        "id": "TIME_PERIOD",
+                                        "value": "2025-Nov"
+                                    }
+                                ]
+                            },
+                            "obsValue": {
+                                "value": 2.1
+                            },
+                            "attributes": {
+                                "values": [
+                                    {
+                                        "id": "OBS_STATUS",
+                                        "value": "A"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }

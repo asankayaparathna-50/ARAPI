@@ -1,0 +1,601 @@
+{
+    "header": {
+        "id": "GDP_GROWTH_MIXED_20260109042509",
+        "prepared": "2026-01-09T04:25:09.6210088Z",
+        "sender": {
+            "id": "CBSL",
+            "name": {
+                "lang": "en",
+                "text": "Central Bank of Sri Lanka"
+            },
+            "contact": {
+                "name": {
+                    "lang": "en",
+                    "text": "Statistics Department"
+                },
+                "email": "statistics@cbsl.lk",
+                "uri": "https://www.cbsl.gov.lk"
+            }
+        },
+        "structure": {
+            "structureID": "DSD_GDP_GROWTH",
+            "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_GDP_GROWTH",
+            "dimensionAtObservation": "TIME_PERIOD"
+        }
+    },
+    "dataSet": {
+        "structureRef": "CBSL:DSD_GDP_GROWTH",
+        "series": [
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "A"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_AGRI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 1.20
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "A"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_IND"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 11.00
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "A"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_SERV"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 2.40
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "A"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_TAX"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 10.60
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "A"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_TOTAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 5.00
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_AGRI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-Q4"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": -2.20
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_IND"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-Q4"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 13.10
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_SERV"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-Q4"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 2.50
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_TAX"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-Q4"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 15.70
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "Q"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "GDP_TOTAL"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "PCPA"
+                        },
+                        {
+                            "id": "OBS_STATUS",
+                            "value": "A"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-Q4"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 5.40
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                },
+                                {
+                                    "id": "CONF_STATUS",
+                                    "value": "F"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

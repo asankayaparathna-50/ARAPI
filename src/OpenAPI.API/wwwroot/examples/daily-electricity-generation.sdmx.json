@@ -1,0 +1,919 @@
+{
+    "header": {
+        "id": "DAILY_ELECTRICITY_GENERATION_20260109042927",
+        "prepared": "2026-01-09T04:29:27.3065476Z",
+        "sender": {
+            "id": "CBSL",
+            "name": {
+                "lang": "en",
+                "text": "Central Bank of Sri Lanka"
+            },
+            "contact": {
+                "name": {
+                    "lang": "en",
+                    "text": "Statistics Department"
+                },
+                "email": "statistics@cbsl.lk",
+                "uri": "https://www.cbsl.gov.lk"
+            }
+        },
+        "structure": {
+            "structureID": "DSD_DAILY_ELECTRICITY_GENERATION",
+            "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_DAILY_ELECTRICITY_GENERATION",
+            "dimensionAtObservation": "TIME_PERIOD"
+        }
+    },
+    "dataSet": {
+        "structureRef": "CBSL:DSD_DAILY_ELECTRICITY_GENERATION",
+        "series": [
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "PEAK_DEMAND"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "MW"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 2591.40
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 2613.00
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 2614.80
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 2671.90
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "TOTAL_ENERGY"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 50.71
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 50.79
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 52.10
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 51.39
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "HYDRO"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 27.62
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 29.08
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 29.28
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 27.47
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "THERMAL_COAL"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 6.42
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 6.45
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 6.47
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 5.26
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "THERMAL_OIL"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 8.52
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 8.35
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 7.91
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 5.75
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "WIND"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 1.96
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 1.12
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 1.26
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 1.86
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "SOLAR"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 5.92
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 5.51
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 6.92
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 10.77
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "INDICATOR",
+                            "value": "ELECTRICITY_GENERATION"
+                        },
+                        {
+                            "id": "GENERATION_TYPE",
+                            "value": "BIOMASS"
+                        },
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "GWH"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": []
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "11-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 0.27
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "10-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 0.27
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "09-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 0.27
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "08-Dec-25"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 0.26
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

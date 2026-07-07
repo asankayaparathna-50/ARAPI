@@ -1,0 +1,44 @@
+{
+    "period": "2025-12-12",
+    "market": "pettah",
+    "data": {
+        "Wholesale": {
+            "Beans": 800.000,
+            "Big Onions (local)": 238.000,
+            "Brinjal": 200.000,
+            "Cabbage": 150.000,
+            "Carrot": 200.000,
+            "Coconut": 160.000,
+            "Dhal": 255.000,
+            "Dried Chillies (imp)": 725.000,
+            "Eggs (White)": 43.000,
+            "Kekulu Red": 208.000,
+            "Green Chilli": 400.000,
+            "Lime": 400.000,
+            "Potatoes (local)": 340.000,
+            "Pumpkin": 130.000,
+            "Red Onions (local)": 287.000,
+            "Samba": 240.000,
+            "Snake gourd": 400.000,
+            "Tomatoes": 250.000
+        },
+        "Retail": {
+            "Beans": 900.000,
+            "Big Onions (local)": 280.000,
+            "Brinjal": 250.000,
+            "Cabbage": 200.000,
+            "Carrot": 250.000,
+            "Coconut": 200.000,
+            "Dried Chillies (imp)": 750.000,
+            "Eggs (White)": 43.500,
+            "Kekulu Red": 215.000,
+            "Green Chilli": 450.000,
+            "Lime": 450.000,
+            "Potatoes (local)": 400.000,
+            "Pumpkin": 200.000,
+            "Samba": 250.000,
+            "Snake gourd": 450.000,
+            "Tomatoes": 300.000
+        }
+    }
+}

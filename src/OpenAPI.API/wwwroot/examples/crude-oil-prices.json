@@ -1,0 +1,227 @@
+{
+    "monthlyPrices": [
+        {
+            "monthName": "January",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "78.93",
+            "crudeOilFuturesPricesWTI": "73.64",
+            "cpcImportPrices": "91.48"
+        },
+        {
+            "monthName": "February",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "81.48",
+            "crudeOilFuturesPricesWTI": "76.53",
+            "cpcImportPrices": "81.33"
+        },
+        {
+            "monthName": "March",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "84.57",
+            "crudeOilFuturesPricesWTI": "80.23",
+            "cpcImportPrices": "82.76"
+        },
+        {
+            "monthName": "April",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "88.99",
+            "crudeOilFuturesPricesWTI": "84.47",
+            "cpcImportPrices": "86.00"
+        },
+        {
+            "monthName": "May",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "83.28",
+            "crudeOilFuturesPricesWTI": "78.97",
+            "cpcImportPrices": "88.49"
+        },
+        {
+            "monthName": "June",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "82.58",
+            "crudeOilFuturesPricesWTI": "78.42",
+            "cpcImportPrices": "92.88"
+        },
+        {
+            "monthName": "July",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "84.14",
+            "crudeOilFuturesPricesWTI": "80.85",
+            "cpcImportPrices": "87.57"
+        },
+        {
+            "monthName": "August",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "79.03",
+            "crudeOilFuturesPricesWTI": "75.71",
+            "cpcImportPrices": "-"
+        },
+        {
+            "monthName": "September",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "73.27",
+            "crudeOilFuturesPricesWTI": "69.93",
+            "cpcImportPrices": "87.38"
+        },
+        {
+            "monthName": "October",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "75.29",
+            "crudeOilFuturesPricesWTI": "71.55",
+            "cpcImportPrices": "81.75"
+        },
+        {
+            "monthName": "November",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "73.51",
+            "crudeOilFuturesPricesWTI": "69.73",
+            "cpcImportPrices": "76.72"
+        },
+        {
+            "monthName": "December",
+            "year": "2024",
+            "crudeOilFuturesPricesBrent": "73.02",
+            "crudeOilFuturesPricesWTI": "69.57",
+            "cpcImportPrices": "77.50"
+        },
+        {
+            "monthName": "January",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "77.90",
+            "crudeOilFuturesPricesWTI": "74.77",
+            "cpcImportPrices": "76.14"
+        },
+        {
+            "monthName": "February",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "75.12",
+            "crudeOilFuturesPricesWTI": "71.37",
+            "cpcImportPrices": "76.32"
+        },
+        {
+            "monthName": "March",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "71.41",
+            "crudeOilFuturesPricesWTI": "67.88",
+            "cpcImportPrices": "83.33"
+        },
+        {
+            "monthName": "April",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "66.96",
+            "crudeOilFuturesPricesWTI": "63.54",
+            "cpcImportPrices": "83.47"
+        },
+        {
+            "monthName": "May",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "63.96",
+            "crudeOilFuturesPricesWTI": "60.86",
+            "cpcImportPrices": "75.75"
+        },
+        {
+            "monthName": "June",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "70.13",
+            "crudeOilFuturesPricesWTI": "68.14",
+            "cpcImportPrices": "70.79"
+        },
+        {
+            "monthName": "July",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "69.29",
+            "crudeOilFuturesPricesWTI": "66.94",
+            "cpcImportPrices": "66.70"
+        },
+        {
+            "monthName": "August",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "67.47",
+            "crudeOilFuturesPricesWTI": "64.23",
+            "cpcImportPrices": "66.84"
+        },
+        {
+            "monthName": "September",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "67.63",
+            "crudeOilFuturesPricesWTI": "63.69",
+            "cpcImportPrices": "73.51"
+        },
+        {
+            "monthName": "October",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "64.25",
+            "crudeOilFuturesPricesWTI": "60.33",
+            "cpcImportPrices": "72.86"
+        },
+        {
+            "monthName": "November",
+            "year": "2025",
+            "crudeOilFuturesPricesBrent": "63.69",
+            "crudeOilFuturesPricesWTI": "59.51",
+            "cpcImportPrices": "-"
+        }
+    ],
+    "dailyPrices": [
+        {
+            "dayLabel": "06-Dec",
+            "year": 2024,
+            "crudeOilFuturesPricesBrent": "71.81",
+            "crudeOilFuturesPricesWTI": "68.07"
+        },
+        {
+            "dayLabel": "08-Dec",
+            "year": 2025,
+            "crudeOilFuturesPricesBrent": "63.76",
+            "crudeOilFuturesPricesWTI": "60.09"
+        },
+        {
+            "dayLabel": "09-Dec",
+            "year": 2024,
+            "crudeOilFuturesPricesBrent": "71.44",
+            "crudeOilFuturesPricesWTI": "67.53"
+        },
+        {
+            "dayLabel": "09-Dec",
+            "year": 2025,
+            "crudeOilFuturesPricesBrent": "62.48",
+            "crudeOilFuturesPricesWTI": "58.84"
+        },
+        {
+            "dayLabel": "10-Dec",
+            "year": 2024,
+            "crudeOilFuturesPricesBrent": "71.97",
+            "crudeOilFuturesPricesWTI": "68.19"
+        },
+        {
+            "dayLabel": "10-Dec",
+            "year": 2025,
+            "crudeOilFuturesPricesBrent": "62.07",
+            "crudeOilFuturesPricesWTI": "58.38"
+        },
+        {
+            "dayLabel": "11-Dec",
+            "year": 2024,
+            "crudeOilFuturesPricesBrent": "72.53",
+            "crudeOilFuturesPricesWTI": "68.92"
+        },
+        {
+            "dayLabel": "11-Dec",
+            "year": 2025,
+            "crudeOilFuturesPricesBrent": "62.52",
+            "crudeOilFuturesPricesWTI": "58.81"
+        },
+        {
+            "dayLabel": "12-Dec",
+            "year": 2024,
+            "crudeOilFuturesPricesBrent": "73.51",
+            "crudeOilFuturesPricesWTI": "70.23"
+        },
+        {
+            "dayLabel": "12-Dec",
+            "year": 2025,
+            "crudeOilFuturesPricesBrent": "61.66",
+            "crudeOilFuturesPricesWTI": "58.00"
+        }
+    ]
+}

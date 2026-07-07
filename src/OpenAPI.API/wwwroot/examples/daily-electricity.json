@@ -1,0 +1,14 @@
+{
+  "period": "2025-12-05",
+  "frequency": "D",
+  "data": {
+    "Electricity Generation - Biomass": 0.16,
+    "Electricity Generation - Hydro": 28.8,
+    "Electricity Generation - Peak Demand": 2356.3,
+    "Electricity Generation - Solar": 8.28,
+    "Electricity Generation - Thermal Coal": 5.12,
+    "Electricity Generation - Thermal Oil": 4.88,
+    "Electricity Generation - Total Energy": 48.38,
+    "Electricity Generation - Wind": 1.14
+  }
+}

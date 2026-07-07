@@ -1,0 +1,4 @@
+{
+  "header": {"id": "INTEREST_RATE_20251118", "sender": {"id": "CBSL"}},
+  "dataSet": {"structureRef": "CBSL:DSD_INTEREST_RATE"}
+}

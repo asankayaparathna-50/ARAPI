@@ -1,0 +1,3321 @@
+{
+  "info": {
+    "_postman_id": "a0f1e4dd-9a66-4cb9-976c-df97d3ed40a6",
+    "name": "OpenAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50394153",
+    "_collection_link": "https://go.postman.co/collection/50394153-a0f1e4dd-9a66-4cb9-976c-df97d3ed40a6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Get Token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "client_id",
+                  "value": "client1",
+                  "type": "text"
+                },
+                {
+                  "key": "client_secret",
+                  "value": "secretA123!",
+                  "type": "text"
+                },
+                {
+                  "key": "grant_type",
+                  "value": "client_credentials",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/connect/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connect",
+                "token"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Token 2",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "client_id",
+                  "value": "client2",
+                  "type": "text"
+                },
+                {
+                  "key": "client_secret",
+                  "value": "secretA123!",
+                  "type": "text"
+                },
+                {
+                  "key": "grant_type",
+                  "value": "client_credentials",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/connect/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connect",
+                "token"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Refresh Token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "client_id",
+                  "value": "client1",
+                  "type": "text"
+                },
+                {
+                  "key": "refresh_token",
+                  "value": "a8d6d2d8ff9d459681f1c835132a4ce49a19b707e633448e89aeb004d004b732",
+                  "type": "text"
+                },
+                {
+                  "key": "grant_type",
+                  "value": "refresh_token",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/connect/refresh/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connect",
+                "refresh",
+                "token"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Data Library",
+      "item": [
+        {
+          "name": "Get Frequencies",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{Client1}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/frequencies",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "frequencies"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Sectors",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/sectors",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "sectors"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Subjects",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{Client1}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/subjects",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "subjects"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Subjects By Sector",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{Client1}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/subjects/sector/R",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "subjects",
+                "sector",
+                "R"
+              ],
+              "query": [
+                {
+                  "key": "sectorCode",
+                  "value": "3",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Data Code",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{Client1}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/datacodelist?SubId=1&SectorCode=R&FrequencyCode=A",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "datacodelist"
+              ],
+              "query": [
+                {
+                  "key": "SubId",
+                  "value": "1"
+                },
+                {
+                  "key": "SectorCode",
+                  "value": "R"
+                },
+                {
+                  "key": "FrequencyCode",
+                  "value": "A"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Data Value",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{Client1}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/datavalues?notes=true&from=2015&to=2016&frequencyCode=A,Q&dataCodeList=8800&dataCodeList=8808",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "datavalues"
+              ],
+              "query": [
+                {
+                  "key": "notes",
+                  "value": "true"
+                },
+                {
+                  "key": "from",
+                  "value": "2015"
+                },
+                {
+                  "key": "to",
+                  "value": "2016"
+                },
+                {
+                  "key": "frequencyCode",
+                  "value": "A,Q"
+                },
+                {
+                  "key": "dataCodeList",
+                  "value": "8800"
+                },
+                {
+                  "key": "dataCodeList",
+                  "value": "8808"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Exchange Rate",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{Client1}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "accept",
+                "value": "*/*",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/datalibrary/exchangerates?fromDate=2021-01-08&toDate=2021-03-28&currencyCode=usd&typeLike=ex-bs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "datalibrary",
+                "exchangerates"
+              ],
+              "query": [
+                {
+                  "key": "fromDate",
+                  "value": "2021-01-08"
+                },
+                {
+                  "key": "toDate",
+                  "value": "2021-03-28"
+                },
+                {
+                  "key": "currencyCode",
+                  "value": "usd"
+                },
+                {
+                  "key": "typeLike",
+                  "value": "ex-bs",
+                  "description": "ex-bs, ex-ad, "
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "item": [
+        {
+          "name": "Economic Indicators",
+          "item": [
+            {
+              "name": "Daily",
+              "item": [
+                {
+                  "name": "Real GDP Growth",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/real-gdp-growth?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "real-gdp-growth"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "yoy-growth",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/yoy-growth?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "yoy-growth"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "TT Rate",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/tt-rate?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "tt-rate"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Money Supply",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/money-supply?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "money-supply"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "USD Spot Rate",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/usd-spot-rate?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "usd-spot-rate"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "policy-rates",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/policy-rates?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "policy-rates"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "AWPR",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/awpr?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "awpr"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Overnight Liquidity",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/overnight-liquidity?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "overnight-liquidity"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Treasury Bill Yield Rate",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/treasury-bill-yield?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "treasury-bill-yield"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "EQUITY- All share price index",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/equity-all-share-price?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "equity-all-share-price"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Petroleum Prices",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/petroleum-price?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "petroleum-price"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Electricity Generation",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{Client1}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "accept",
+                        "value": "*/*",
+                        "type": "text"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/xml",
+                        "type": "text",
+                        "disabled": true
+                      }
+                    ],
+                    "body": {
+                      "mode": "formdata",
+                      "formdata": []
+                    },
+                    "url": {
+                      "raw": "{{basedev}}/api/v1/statistics/daily/economic-indicator/electricity-generation?period=2025-10-12",
+                      "host": [
+                        "{{basedev}}"
+                      ],
+                      "path": [
+                        "api",
+                        "v1",
+                        "statistics",
+                        "daily",
+                        "economic-indicator",
+                        "electricity-generation"
+                      ],
+                      "query": [
+                        {
+                          "key": "period",
+                          "value": "2025-10-12"
+                        },
+                        {
+                          "key": "format",
+                          "value": "sdmx",
+                          "disabled": true
+                        },
+                        {
+                          "key": "type",
+                          "value": "ncpi",
+                          "disabled": true
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Weekly",
+              "item": [
+                {
+                  "name": "Real Sector",
+                  "item": [
+                    {
+                      "name": "Price Indices",
+                      "item": [
+                        {
+                          "name": "Price Indices",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "application/xml",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{basedev}}/api/v1/statistics/weekly/economic-indicator/price-indices?type=ncpi",
+                              "host": [
+                                "{{basedev}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "price-indices"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "type",
+                                  "value": "ncpi"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Prices",
+                      "item": [
+                        {
+                          "name": "Prices",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{basedev}}/api/v1/statistics/weekly/economic-indicator/prices?period=2025-12-12&market=pettah",
+                              "host": [
+                                "{{basedev}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "prices"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2025-12-12"
+                                },
+                                {
+                                  "key": "market",
+                                  "value": "pettah",
+                                  "description": "pettah, maradagahamula, dambulla, narahenpita, "
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        },
+                        {
+                          "name": "Prices - Fish",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/prices?period=2025-03-06&market=fish-narahenpita",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "prices"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2025-03-06"
+                                },
+                                {
+                                  "key": "market",
+                                  "value": "fish-narahenpita",
+                                  "description": "fish-paliyagoda, fish-narahenpita, fish-negombo"
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        },
+                        {
+                          "name": "Prices SDMX Structure",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/prices",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "prices"
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Gdp Growth",
+                      "item": [
+                        {
+                          "name": "Growth Rates",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/gdp-growth?period=2023-06-03",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "gdp-growth"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2023-06-03"
+                                },
+                                {
+                                  "key": "frequency",
+                                  "value": "A",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Agricultural",
+                      "item": [
+                        {
+                          "name": "Agricultural Production",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{basedev}}/api/v1/statistics/weekly/economic-indicator/agricultural-production?period=2025-12-12",
+                              "host": [
+                                "{{basedev}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "agricultural-production"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2025-12-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "IIP",
+                      "item": [
+                        {
+                          "name": "Index of Industrial Production",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/industrial-production?period=2023-12-12&format=sdmx",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "industrial-production"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2023-12-12"
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PMI",
+                      "item": [
+                        {
+                          "name": "Purchasing Managers' Index",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/pmi?period=2025-12-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "pmi"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2025-12-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Employeement",
+                      "item": [
+                        {
+                          "name": "Employment",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/employment?period=2023-12-12&frequency=A",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "employment"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2023-12-12"
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "frequency",
+                                  "value": "A",
+                                  "description": "A,Q"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Wage Rate Indices",
+                      "item": [
+                        {
+                          "name": "Wage Rate Indices",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/wage-rate-indices?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "wage-rate-indices"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Average Crude Oil Price",
+                      "item": [
+                        {
+                          "name": "Average Crude Oil Prices",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/crude-oil-prices?period=2024-11-07",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "crude-oil-prices"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2024-11-07"
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Daily Electricity Generation",
+                      "item": [
+                        {
+                          "name": "Daily Electricity Generation",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "bearer",
+                              "bearer": [
+                                {
+                                  "key": "token",
+                                  "value": "{{Client1}}",
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/daily-electricity-generation?period=2024-11-07",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "daily-electricity-generation"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2024-11-07"
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "type": "text",
+                                  "disabled": true
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Monetary Sector",
+                  "item": [
+                    {
+                      "name": "Interest Rates",
+                      "item": [
+                        {
+                          "name": "Policy Interest Rate",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/interest-rate?period=2019-01-01",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "interest-rate"
+                              ],
+                              "query": [
+                                {
+                                  "key": "period",
+                                  "value": "2019-01-01"
+                                },
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Money Supply",
+                      "item": [
+                        {
+                          "name": "Money Supply",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/money-supply?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "money-supply"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Reserve Money and Currency in Circulation",
+                      "item": [
+                        {
+                          "name": "RM and Currency in Circulation",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/reserve-money?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "reserve-money"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Money Market Activity (Overnight)",
+                      "item": [
+                        {
+                          "name": "Money Market Activity",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/money-market-activity?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "money-market-activity"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CBSL Securities Portfolio",
+                      "item": [
+                        {
+                          "name": "CBSL Securities Portfolio",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/cbsl-securities-portfolio?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "cbsl-securities-portfolio"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Credit Card and Commerical Paper Issues",
+                      "item": [
+                        {
+                          "name": "Credit Card",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/credit-cards?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "credit-cards"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        },
+                        {
+                          "name": "Commerical Paper Issues",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/credit-cards?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "credit-cards"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Share Market",
+                      "item": [
+                        {
+                          "name": "Share Market",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/share-market?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "share-market"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Fiscal Sector",
+                  "item": [
+                    {
+                      "name": "Government Finance (Rs. Bn)",
+                      "item": [
+                        {
+                          "name": "Government Finance",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/government-finance?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "government-finance"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Outstanding Central Government Debt (Rs. Bn)",
+                      "item": [
+                        {
+                          "name": "OCG Debt",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/outstanding-central-government-debt?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "outstanding-central-government-debt"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Government Securities - Primary and Secondary Market Yield Rate",
+                      "item": [
+                        {
+                          "name": "Treasury Bills and Treasury Bonds",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/primary-secondary-market-yield-rates-government-securities?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "primary-secondary-market-yield-rates-government-securities"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        },
+                        {
+                          "name": "International Sovereign Bond",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/international-sovereign-bonds?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "international-sovereign-bonds"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Government Securities - Weekly Summary of Primary and Secondary Market Transaction",
+                      "item": [
+                        {
+                          "name": "GS - Weekly Summary of P&S market Transactions",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/primary-secondary-market-yield-rates-government-securities?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "primary-secondary-market-yield-rates-government-securities"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "External Sector",
+                  "item": [
+                    {
+                      "name": "Exchange Rate",
+                      "item": [
+                        {
+                          "name": "Exchange Rate",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/exchange-rates?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "exchange-rates"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Tourism & Workers' Remittances",
+                      "item": [
+                        {
+                          "name": "Tourism & Workers' Remittances",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/tourism-workers-remittance?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "tourism-workers-remittance"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "External Trade",
+                      "item": [
+                        {
+                          "name": "External Trade",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/external-trade?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "external-trade"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Trade Indices",
+                      "item": [
+                        {
+                          "name": "Trade Indices",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/external-trade?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "external-trade"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Commodity Prices",
+                      "item": [
+                        {
+                          "name": "Commodity Prices",
+                          "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                          },
+                          "request": {
+                            "auth": {
+                              "type": "noauth"
+                            },
+                            "method": "GET",
+                            "header": [
+                              {
+                                "key": "accept",
+                                "value": "*/*",
+                                "type": "text"
+                              },
+                              {
+                                "key": "Content-Type",
+                                "value": "multipart/form-data",
+                                "type": "text",
+                                "disabled": true
+                              }
+                            ],
+                            "body": {
+                              "mode": "formdata",
+                              "formdata": []
+                            },
+                            "url": {
+                              "raw": "{{baseUrl}}/api/v1/statistics/weekly/economic-indicator/commodity-price?period=2025-10-12",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "api",
+                                "v1",
+                                "statistics",
+                                "weekly",
+                                "economic-indicator",
+                                "commodity-price"
+                              ],
+                              "query": [
+                                {
+                                  "key": "format",
+                                  "value": "sdmx",
+                                  "disabled": true
+                                },
+                                {
+                                  "key": "period",
+                                  "value": "2025-10-12"
+                                }
+                              ]
+                            }
+                          },
+                          "response": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": ""
+    },
+    {
+      "key": "Client2",
+      "value": ""
+    },
+    {
+      "key": "Client1",
+      "value": ""
+    },
+    {
+      "key": "baselive",
+      "value": ""
+    },
+    {
+      "key": "basedev",
+      "value": ""
+    }
+  ]
+}

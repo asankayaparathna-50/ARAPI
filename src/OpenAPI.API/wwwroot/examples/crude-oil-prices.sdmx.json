@@ -1,0 +1,2038 @@
+{
+    "header": {
+        "id": "CRUDE_OIL_PRICES_20260109042844",
+        "prepared": "2026-01-09T04:28:44.7342164Z",
+        "sender": {
+            "id": "CBSL",
+            "name": {
+                "lang": "en",
+                "text": "Central Bank of Sri Lanka"
+            },
+            "contact": {
+                "name": {
+                    "lang": "en",
+                    "text": "Statistics Department"
+                },
+                "email": "statistics@cbsl.lk",
+                "uri": "https://www.cbsl.gov.lk"
+            }
+        },
+        "structure": {
+            "structureID": "DSD_CRUDE_OIL_PRICES",
+            "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_CRUDE_OIL_PRICES",
+            "dimensionAtObservation": "TIME_PERIOD"
+        }
+    },
+    "dataSet": {
+        "structureRef": "CBSL:DSD_CRUDE_OIL_PRICES",
+        "series": [
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "COMMODITY",
+                            "value": "BRENT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "USD_BBL"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Crude Oil Futures Prices - Brent (Monthly)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-01"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 78.93
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-02"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 81.48
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-03"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 84.57
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-04"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 88.99
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-05"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 83.28
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-06"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 82.58
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-07"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 84.14
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-08"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 79.03
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-09"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 73.27
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-10"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 75.29
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-11"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 73.51
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 73.02
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-01"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 77.90
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-02"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 75.12
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-03"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 71.41
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-04"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 66.96
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-05"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 63.96
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-06"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 70.13
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-07"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 69.29
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-08"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 67.47
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-09"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 67.63
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-10"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 64.25
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-11"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 63.69
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "COMMODITY",
+                            "value": "WTI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "USD_BBL"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Crude Oil Futures Prices - WTI (Monthly)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-01"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 73.64
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-02"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 76.53
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-03"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 80.23
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-04"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 84.47
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-05"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 78.97
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-06"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 78.42
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-07"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 80.85
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-08"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 75.71
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-09"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 69.93
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-10"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 71.55
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-11"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 69.73
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 69.57
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-01"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 74.77
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-02"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 71.37
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-03"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 67.88
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-04"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 63.54
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-05"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 60.86
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-06"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 68.14
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-07"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 66.94
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-08"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 64.23
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-09"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 63.69
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-10"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 60.33
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-11"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 59.51
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "M"
+                        },
+                        {
+                            "id": "COMMODITY",
+                            "value": "CPC_IMPORT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "USD_BBL"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "CPC Import Prices (Monthly)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-01"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 91.48
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-02"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 81.33
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-03"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 82.76
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-04"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 86.00
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-05"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 88.49
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-06"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 92.88
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-07"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 87.57
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-09"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 87.38
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-10"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 81.75
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-11"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 76.72
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-12"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 77.50
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-01"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 76.14
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-02"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 76.32
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-03"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 83.33
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-04"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 83.47
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-05"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 75.75
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-06"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 70.79
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-07"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 66.70
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-08"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 66.84
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-09"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 73.51
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-10"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 72.86
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "COMMODITY",
+                            "value": "BRENT"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "USD_BBL"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Crude Oil Futures Prices - Brent (Daily)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-06-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 71.81
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-08-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 63.76
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-09-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 71.44
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-09-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 62.48
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-10-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 71.97
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-10-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 62.07
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-11-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 72.53
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-11-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 62.52
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-12-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 73.51
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 61.66
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "seriesKey": {
+                    "values": [
+                        {
+                            "id": "FREQ",
+                            "value": "D"
+                        },
+                        {
+                            "id": "COMMODITY",
+                            "value": "WTI"
+                        },
+                        {
+                            "id": "REF_AREA",
+                            "value": "LK"
+                        }
+                    ]
+                },
+                "attributes": {
+                    "values": [
+                        {
+                            "id": "UNIT_MEASURE",
+                            "value": "USD_BBL"
+                        },
+                        {
+                            "id": "DECIMALS",
+                            "value": "2"
+                        },
+                        {
+                            "id": "TITLE",
+                            "value": "Crude Oil Futures Prices - WTI (Daily)"
+                        }
+                    ]
+                },
+                "observations": [
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-06-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 68.07
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-08-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 60.09
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-09-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 67.53
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-09-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 58.84
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-10-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 68.19
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-10-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 58.38
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-11-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 68.92
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-11-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 58.81
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2024-12-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 70.23
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "obsKey": {
+                            "values": [
+                                {
+                                    "id": "TIME_PERIOD",
+                                    "value": "2025-12-Dec"
+                                }
+                            ]
+                        },
+                        "obsValue": {
+                            "value": 58.00
+                        },
+                        "attributes": {
+                            "values": [
+                                {
+                                    "id": "OBS_STATUS",
+                                    "value": "A"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

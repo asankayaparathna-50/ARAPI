@@ -1,0 +1,88 @@
+{
+  "header": {
+    "id": "DAILY_ECONOMIC_INDICATOR_20260424055905",
+    "prepared": "2026-04-24T05:59:05.2938789Z",
+    "sender": {
+      "id": "CBSL",
+      "name": {
+        "lang": "en",
+        "text": "Central Bank of Sri Lanka"
+      },
+      "contact": {
+        "name": {
+          "lang": "en",
+          "text": "OpenAPI"
+        },
+        "email": "",
+        "uri": ""
+      }
+    },
+    "structure": {
+      "structureID": "DSD_DAILY_ECONOMIC_INDICATORS",
+      "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+      "dimensionAtObservation": "TIME_PERIOD"
+    }
+  },
+  "dataSet": {
+    "structureRef": "CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+    "series": [
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "USD Spot Rate"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "USD Spot Rate"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 308.84793
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

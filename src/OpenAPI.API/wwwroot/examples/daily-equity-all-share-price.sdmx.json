@@ -1,0 +1,373 @@
+{
+  "header": {
+    "id": "DAILY_ECONOMIC_INDICATOR_20260424060359",
+    "prepared": "2026-04-24T06:03:59.0769101Z",
+    "sender": {
+      "id": "CBSL",
+      "name": {
+        "lang": "en",
+        "text": "Central Bank of Sri Lanka"
+      },
+      "contact": {
+        "name": {
+          "lang": "en",
+          "text": "OpenAPI"
+        },
+        "email": "",
+        "uri": ""
+      }
+    },
+    "structure": {
+      "structureID": "DSD_DAILY_ECONOMIC_INDICATORS",
+      "namespace": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+      "dimensionAtObservation": "TIME_PERIOD"
+    }
+  },
+  "dataSet": {
+    "structureRef": "CBSL:DSD_DAILY_ECONOMIC_INDICATORS",
+    "series": [
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "EQUITY- All share price index"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "All Share Price Index"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 21497.08
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "EQUITY- Daily Turnover"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "All Share Price Index"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 3968.85402
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "EQUITY- Foreign Purchases"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "All Share Price Index"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 154.458272
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "EQUITY- Market Price Earnings Ratio"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "All Share Price Index"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 10.4
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "EQUITY-Market Capitalization"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "All Share Price Index"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 7699.167623
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "seriesKey": {
+          "values": [
+            {
+              "id": "FREQ",
+              "value": "D"
+            },
+            {
+              "id": "INDICATOR",
+              "value": "EQUITY-S&P SL20 Index"
+            },
+            {
+              "id": "REF_AREA",
+              "value": "LKA"
+            }
+          ]
+        },
+        "attributes": {
+          "values": [
+            {
+              "id": "UNIT_MEASURE",
+              "value": "INDEX"
+            },
+            {
+              "id": "DECIMALS",
+              "value": "2"
+            },
+            {
+              "id": "TITLE",
+              "value": "All Share Price Index"
+            }
+          ]
+        },
+        "observations": [
+          {
+            "obsKey": {
+              "values": [
+                {
+                  "id": "TIME_PERIOD",
+                  "value": "2025-12-05"
+                }
+              ]
+            },
+            "obsValue": {
+              "value": 5925.63
+            },
+            "attributes": {
+              "values": [
+                {
+                  "id": "OBS_STATUS",
+                  "value": "A"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

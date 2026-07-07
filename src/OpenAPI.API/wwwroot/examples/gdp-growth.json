@@ -1,0 +1,76 @@
+{
+    "annually": [
+        {
+            "item": "Agriculture, Forestry and Fishing",
+            "itemName": "GDP Growth - Constant (2015) Prices - Agriculture, Forestry and Fishing",
+            "yearAgo": 1.20,
+            "dYearAgo": 1.60,
+            "frequency": "A"
+        },
+        {
+            "item": "Industries",
+            "itemName": "GDP Growth - Constant (2015) Prices - Industries",
+            "yearAgo": 11.00,
+            "dYearAgo": -9.20,
+            "frequency": "A"
+        },
+        {
+            "item": "Services",
+            "itemName": "GDP Growth - Constant (2015) Prices - Services",
+            "yearAgo": 2.40,
+            "dYearAgo": -0.20,
+            "frequency": "A"
+        },
+        {
+            "item": "Taxes less Subsidies on products",
+            "itemName": "GDP Growth - Constant (2015) Prices - Taxes less Subsidies on products",
+            "yearAgo": 10.60,
+            "dYearAgo": 2.60,
+            "frequency": "A"
+        },
+        {
+            "item": "Gross Domestic Product",
+            "itemName": "GDP Growth - Constant (2015) Prices - Gross Domestic Product",
+            "yearAgo": 5.00,
+            "dYearAgo": -2.30,
+            "frequency": "A"
+        }
+    ],
+    "quarterly": [
+        {
+            "item": "Agriculture, Forestry and Fishing",
+            "itemName": "GDP Growth - Constant (2015) Prices - Agriculture, Forestry and Fishing",
+            "yearAgo": -2.20,
+            "dYearAgo": -1.20,
+            "frequency": "Q"
+        },
+        {
+            "item": "Industries",
+            "itemName": "GDP Growth - Constant (2015) Prices - Industries",
+            "yearAgo": 13.10,
+            "dYearAgo": 7.70,
+            "frequency": "Q"
+        },
+        {
+            "item": "Services",
+            "itemName": "GDP Growth - Constant (2015) Prices - Services",
+            "yearAgo": 2.50,
+            "dYearAgo": 2.80,
+            "frequency": "Q"
+        },
+        {
+            "item": "Taxes less Subsidies on products",
+            "itemName": "GDP Growth - Constant (2015) Prices - Taxes less Subsidies on products",
+            "yearAgo": 15.70,
+            "dYearAgo": 14.50,
+            "frequency": "Q"
+        },
+        {
+            "item": "Gross Domestic Product",
+            "itemName": "GDP Growth - Constant (2015) Prices - Gross Domestic Product",
+            "yearAgo": 5.40,
+            "dYearAgo": 4.30,
+            "frequency": "Q"
+        }
+    ]
+}

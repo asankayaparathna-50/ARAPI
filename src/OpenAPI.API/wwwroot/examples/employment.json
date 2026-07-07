@@ -1,0 +1,38 @@
+{
+    "employmentData": [
+        {
+            "item": "Labour Force Participation Rate",
+            "itemName": "Labour Force Participation Rate - Sri Lanka - Annual/Quarterly",
+            "yearAgoValue": 49.8,
+            "yearAgoWithQuarter": 48.9,
+            "thisYearWithQuarter": 47.1
+        },
+        {
+            "item": "Unemployment Rate",
+            "itemName": "Unemployment Rate - Sri Lanka - Annual/Quarterly",
+            "yearAgoValue": 4.7,
+            "yearAgoWithQuarter": 4.8,
+            "thisYearWithQuarter": 4.3
+        }
+    ],
+    "empolyedPersonBySectorData": [
+        {
+            "item": "Agriculture",
+            "yearAgoValue": 26.5,
+            "yearAgoWithQuarter": 28.2,
+            "thisYearWithQuarter": 26.5
+        },
+        {
+            "item": "Industry",
+            "yearAgoValue": 26.5,
+            "yearAgoWithQuarter": 24.3,
+            "thisYearWithQuarter": 25.3
+        },
+        {
+            "item": "Services",
+            "yearAgoValue": 47.0,
+            "yearAgoWithQuarter": 47.5,
+            "thisYearWithQuarter": 48.2
+        }
+    ]
+}

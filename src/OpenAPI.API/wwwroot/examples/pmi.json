@@ -1,0 +1,5 @@
+{
+  "manufacturing": {"current": 52.3, "previous": 51.8, "yearAgo": 49.5},
+  "services": {"current": 54.1, "previous": 53.6, "yearAgo": 51.2},
+  "construction": {"current": 48.9, "previous": 49.2, "yearAgo": 47.8}
+}
